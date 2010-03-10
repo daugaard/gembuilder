@@ -8,7 +8,7 @@ require "fileutils"
 require "rubygems/installer"
 
 class GemBuilderLib
-  VERSION = '1.2.0'
+  VERSION = '1.2.1'
   OBJEXT = ".#{Config::CONFIG["OBJEXT"]}"
 
   # Helper that will do it all
