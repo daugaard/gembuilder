@@ -50,7 +50,7 @@ class GemBuilderLib
   end
 
   def build_extensions
-    installer.build_extensions(tmpdir, format.spec)
+    installer.build_extensions #(tmpdir, format.spec) removed to support rubygems 1.3.5
   end
 
   def platform
